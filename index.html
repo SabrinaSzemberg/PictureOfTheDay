@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Apod Nasa</title>
 </head>
 <body>
-    
-    <script src="script/index.js"></script>
+    <header>
+        Astronomy Pictury Of The Day
+    </header>
+    <main> 
+        <div class="data">
+            <input type="data" id="date" min="1995-06-16"></input>
+            <input type="submit" id="btnShow">
+        </div>
+        <div class="principal">
+            <iframe src="" id="image" class="video"></iframe>
+            <iframe src="" id="video" class="picture" frameborder="2px"></iframe>
+        </div>
+        <div class="texto">
+            <h1 id="nome"> </h1><br>
+            <p id="texto"></p><br>
+        </div>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
